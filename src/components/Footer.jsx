@@ -26,7 +26,7 @@ const Footer = () => {
             <div className="mb-4 contactdet">
               <Typography variant="body" className="mb-3 text-white bodd"><strong>Address:</strong></Typography>
               <Typography variant="body" className="mb-3 text-white">Sadhna bhavan L-3rd/83, Sector -D, Aliganj, Near Puraniya chouraha, Lucknow, Uttar Pradesh -226024, landmark - backside of UPPSC building</Typography>
-              <Typography variant="body" className="mb-3 text-white bodd"><strong>Mobile:</strong> +91-8210400672 / +91-8709001966</Typography>
+              <Typography variant="body" className="mb-3 text-white bodd"><strong>Mobile:</strong> +91-9821948429</Typography>
               <Typography variant="body" className="mb-3 text-white bodd "><strong>Email:</strong> <a href="mailto:admission@educationdiary .com" className="text-white ml-4">admission@universalmbbs.com</a></Typography>
               <Typography variant="body" className="text-white ml-12"><a href="mailto:info@educationdiary .com" className="text-white ml-5">info@universalmbbs.com</a></Typography>
             </div>
