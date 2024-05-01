@@ -13,10 +13,10 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
           <div className="hidden md:flex flex-col justify-center">
             <Typography variant="h2" className="mb-4 font-bold text-2xl md:text-3xl head">
-              UNIVERSALMBBS
+              Education Diary 
             </Typography>
             <p className="text-base md:text-lg mb-4 ">
-              At UNIVERSALMBBS, we are committed to providing the highest quality services to our clients. We maintain a strong network of partner universities across the globe, ensuring that our students have access to the best education and training opportunities. We also offer pre-departure and post-arrival support to ensure a smooth transition for our students.
+              At Education Diary , we are committed to providing the highest quality services to our clients. We maintain a strong network of partner universities across the globe, ensuring that our students have access to the best education and training opportunities. We also offer pre-departure and post-arrival support to ensure a smooth transition for our students.
             </p>
           </div>
           <div className="contact-info">
@@ -27,14 +27,14 @@ const Footer = () => {
               <Typography variant="body" className="mb-3 text-white bodd"><strong>Address:</strong></Typography>
               <Typography variant="body" className="mb-3 text-white">Sadhna bhavan L-3rd/83, Sector -D, Aliganj, Near Puraniya chouraha, Lucknow, Uttar Pradesh -226024, landmark - backside of UPPSC building</Typography>
               <Typography variant="body" className="mb-3 text-white bodd"><strong>Mobile:</strong> +91-8210400672 / +91-8709001966</Typography>
-              <Typography variant="body" className="mb-3 text-white bodd "><strong>Email:</strong> <a href="mailto:admission@universalmbbs.com" className="text-white ml-4">admission@universalmbbs.com</a></Typography>
-              <Typography variant="body" className="text-white ml-12"><a href="mailto:info@universalmbbs.com" className="text-white ml-5">info@universalmbbs.com</a></Typography>
+              <Typography variant="body" className="mb-3 text-white bodd "><strong>Email:</strong> <a href="mailto:admission@educationdiary .com" className="text-white ml-4">admission@universalmbbs.com</a></Typography>
+              <Typography variant="body" className="text-white ml-12"><a href="mailto:info@educationdiary .com" className="text-white ml-5">info@universalmbbs.com</a></Typography>
             </div>
           </div>
         </div>
         <div className="mt-8 md:mt-12 flex items-center justify-between border-t border-blue-gray-50 py-4">
           <Typography variant="body" className="text-blue-gray-900 text-sm md:text-base">
-            &copy; {currentYear} UNIVERSALMBBS. All Rights Reserved.
+            &copy; {currentYear} Education Diary . All Rights Reserved.
           </Typography>
           <div className="social-links">
             <a href="#" className="social-link hover:opacity-100">
