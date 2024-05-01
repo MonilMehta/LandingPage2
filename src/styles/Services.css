@@ -1,0 +1,108 @@
+/* Services Container */
+.services-container {
+    padding: 50px;
+  }
+  
+  /* Section Heading */
+  .section-heading {
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #0A2463;
+  }
+  
+  /* Services Wrapper */
+  .services-wrapper {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  /* Service Columns */
+  .service-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Service Box */
+  /* Service Box Hover Effect */
+.service-box {
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #ffffff;
+    transition: transform 0.3s ease; /* Add a transition for smooth animation */
+  }
+  
+  /* Hover Effect */
+  .service-box:hover {
+    transform: translateY(-10px); /* Move box upwards on hover */
+  }
+  
+  
+  .service-box h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #0A2463;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .service-box p {
+    font-size: 1rem;
+    color: #666666;
+  }
+  
+ /* Circular Container */
+.circular-container {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* Add position relative for absolute positioning */
+    margin-top: 220px;
+  }
+  
+  /* Circular Image */
+  .circular-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .circular-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* Animation Ball */
+  .animation-ball {
+    position: absolute;
+    top: 50%; /* Position the ball in the center vertically */
+    left: 50%; /* Position the ball in the center horizontally */
+    transform: translate(-50%, -50%); /* Center the ball precisely */
+    width: 20px;
+    height: 20px;
+    background-color: #3E92CC;
+    border-radius: 50%;
+    animation: moveAroundBorder 4s linear infinite;
+  }
+  
+  @keyframes moveAroundBorder {
+    0% {
+      transform: translate(-50%, -50%) rotate(0deg) translateX(150px) rotate(0deg);
+    }
+    100% {
+      transform: translate(-50%, -50%) rotate(360deg) translateX(150px) rotate(-360deg);
+    }
+  }

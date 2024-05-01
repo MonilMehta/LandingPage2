@@ -1,0 +1,46 @@
+.university-container {
+    padding: 50px;
+    margin-bottom: 100px;
+  }
+  
+  .section-heading {
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #0a2463;
+  }
+  
+  .carousel-info {
+    text-align: left;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  .carousel-info h3 {
+    font-size: 2rem;
+    color: #0A2463;
+    margin-bottom: 10px;
+  }
+  
+  .carousel-info p {
+    font-size: 1rem;
+    color: #333333;
+    margin-bottom: 10px;
+  }
+  
+  .carousel-info a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  /* Adjust image styles within the carousel */
+  .carousel .slide img {
+    width: 450px; /* Ensure image does not exceed the container width */
+    height: 450px; /* Maintain aspect ratio */
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+  

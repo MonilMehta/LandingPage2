@@ -1,0 +1,14 @@
+.heading{
+    color: black;
+    font-family: Cormorant Garamond;
+}
+.navlinks a:hover{
+    border-bottom: 1px solid blue;
+}
+.navbarr{
+    z-index: 10;
+    background-color: #3E92CC;
+}
+html {
+    scroll-behavior: smooth;
+  }

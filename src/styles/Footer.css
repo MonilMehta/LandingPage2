@@ -1,0 +1,47 @@
+/* Tailwind CSS classes */
+.footer-container {
+    background-color: #3e92cc;
+    color: white;
+    width: 126.25%;
+    margin-left: -160px;
+    margin-bottom: -33px;
+  }
+  .footer-content{
+    width: 100vw;
+    margin-left: 150px;
+  }
+  .contact-info {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 100px;
+    padding-bottom: 50px;
+  }
+  .contactdet{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+  }
+  
+  .social-links {
+    display: flex;
+    gap: 4px;
+  }
+  .head{
+    color: #0A2463;
+  }
+  
+  .social-link {
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+  }
+  
+  .social-link:hover {
+    opacity: 1;
+  }
+  
+  .bodd strong{
+    color: #33266E;
+  }

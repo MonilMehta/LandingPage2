@@ -1,0 +1,75 @@
+/* Landing.css */
+
+/* Landing Page Container */
+.landing-page {
+    width: 100vw; /* Use viewport width for full screen width */
+    height: 100vh; /* Use viewport height for full screen height */
+    overflow-x: hidden; /* Hide horizontal overflow */
+    z-index: -1;
+    margin-left: -160px;
+  }
+  
+  /* Header Section */
+  .header-section {
+    margin-top: 102px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%; /* Height based on viewport height */
+    overflow: hidden;
+  }
+  
+  /* Background Image */
+
+  /* Content Container */
+  .header-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    max-width: 1200px; /* Limit content width */
+    margin: 0 auto;
+    z-index: 1; /* Ensure content is above the background */
+  }
+  
+  /* Doctor Image */
+  .doctor-image img {
+    margin-left: -50px;
+    width: auto; /* Adjust size as needed */
+    height: 500px;
+  }
+  
+  /* Text Content */
+  .text-content {
+    max-width: 80%;
+    color: #0A2463;
+  }
+  
+  .main-heading {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  .sub-heading {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .cta-button {
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #3E92CC;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #0056b3;
+  }
+  

@@ -1,0 +1,76 @@
+.enquire-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .enquire-content {
+    text-align: center;
+  }
+  .head{
+    font-size: 4rem;
+    margin-bottom: 5vh;
+    font-weight: 600;
+    color: #0A2463;
+  }
+  .enquire-form {
+    display: flex;
+    align-items: center;
+  }
+  
+  .form-image img {
+ /* Adjust the margin as needed */
+    width: 40vw;
+    margin-bottom: 17vh;
+    margin-left: 5vw;
+
+  }
+  
+  .form {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Box shadow */
+    padding: 2rem;
+    background-color: white;
+    width: 40dvw;
+    height: 85dvh;
+    border-radius: 25px;
+    margin-bottom: 10vh;
+  }
+  
+  .form-group {
+    margin-bottom: 1.2rem;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: black;
+    font-weight: 700;
+    
+  }
+  
+  form input[type='text'],
+  form input[type='email'],
+  form input[type='tel'] {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    font-weight: 500;
+  }
+  
+  form button {
+    width: 60%;
+    padding: 0.5rem;
+    background-color: #3E92CC;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  form button :hover{
+    background-color: #4e78f6;
+  }
