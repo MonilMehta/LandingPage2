@@ -1,0 +1,98 @@
+.misnvis1 {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 10vh;
+    height: 100vh;
+    margin-top: 20vh;
+  }
+  
+  .custom-carousel1 .carousel1 .slide1 {
+    background: none;
+  }
+  
+  .enquire-content1 {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .enquire-content1 h3 {
+    font-size: 4rem;
+    font-style: italic;
+    font-weight: 700;
+  }
+  
+  .carousel-item1 {
+    width: 50%;
+    margin-top: 5%;
+    margin-left: 25%;
+    position: relative;
+    text-align: center;
+  }
+  
+  .carousel-image1 {
+    width: 40%;
+    filter: brightness(100%);
+    transition: filter 0.3s;
+  }
+  
+  .carousel-item1:hover .carousel-image1 {
+    filter: brightness(70%);
+  }
+  
+  .carousel-text1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .carousel-text1 h2 {
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+  
+  .carousel-text1 p {
+    font-weight: 500;
+  }
+  
+  .carousel-item1:hover .carousel-text1 {
+    opacity: 1;
+  }
+  
+  /* Update the styling for the left arrow */
+  .carousel1 .control-prev1 {
+    transform: translateX(300px);
+  }
+  
+  /* Update the styling for the right arrow */
+  .carousel1 .control-next1 {
+    transform: translateX(-300px);
+  }
+  
+  .carousel1 .control-next1.control-arrow1:before {
+    content: '';
+    border: solid #0540F2;
+    border-width: 0 5px 5px 0;
+    display: inline-block;
+    padding: 10px; 
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+  
+  .carousel1 .control-prev1.control-arrow1:before {
+    content: '';
+    border: solid #0540F2;
+    border-width: 0 5px 5px 0;
+    display: inline-block;
+    padding: 10px; 
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
+  

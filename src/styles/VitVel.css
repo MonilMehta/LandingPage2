@@ -1,0 +1,38 @@
+.direct-admission-vit {
+    padding: 20px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+  }
+  
+  .direct-admission-vit h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #0A2463;
+    margin-top: 50px;
+  }
+  
+  .direct-admission-vit h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0A2463;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .direct-admission-vit p,
+  .direct-admission-vit ul,
+  .direct-admission-vit ol {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .direct-admission-vit ul {
+    margin-left: 20px;
+  }
+  
+  .direct-admission-vit ol {
+    margin-left: 20px;
+  }
+  

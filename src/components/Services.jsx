@@ -10,16 +10,10 @@ const Services = () => {
         {/* First Column - Service Boxes */}
         <div className="service-column">
           <div className="service-box ml-40">
-            <h3>Service 1</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h3>Management Seat</h3>
           </div>
-          <div className="service-box mr-40">
-            <h3>Service 2</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </div>
-          <div className="service-box ml-40">
-            <h3>Service 3</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <div className="service-box ml-30">
+            <h3>Admission Counselling</h3>
           </div>
         </div>
 
@@ -35,17 +29,12 @@ const Services = () => {
 
         {/* Third Column - Service Boxes */}
         <div className="service-column">
-          <div className="service-box mr-40">
-            <h3>Service 4</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <div className="service-box mr-30">
+            <h3>Pvt College Admission</h3>
           </div>
-          <div className="service-box ml-40">
-            <h3>Service 5</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </div>
+          
           <div className="service-box mr-40">
-            <h3>Service 6</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h3>Career Counselling</h3>
           </div>
         </div>
       </div>

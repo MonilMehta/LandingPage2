@@ -19,9 +19,6 @@ const University = () => {
               <h3>{university.universityName}</h3>
               <p>
                 <strong>Location:</strong> {university.location}<br />
-                <strong>Program:</strong> {university.program}<br />
-                <strong>Tuition Fee:</strong> {university.tuitionFee}<br />
-                <strong>Hostel Fee:</strong> {university.hostelFee}
               </p>
               <p>{university.description}</p>
               <a href={university.website} target="_blank" rel="noopener noreferrer">Visit Website</a>

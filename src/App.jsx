@@ -1,23 +1,24 @@
-import './App.css'
-import Landing from './components/Landing.jsx'
-import Navbar from './components/Navbar.jsx'
-import Services from './components/Services.jsx'
-import University from './components/Universities.jsx'
-import Enquiry from './components/Enquiry.jsx'
-import Footer from './components/Footer.jsx'
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import './App.css';
+import Navbar from './components/Navbar';
+import Home from './components/Home';
+import Footer from './components/Footer';
+import VitVel from './components/VitVel'; // Import the Direct Admission VIT component
 
 function App() {
-
   return (
-    <div>
-        <Navbar/>
-        <Landing/>
-        <Services/>
-        <University/>
-        <Enquiry/>
-        <Footer/>
-    </div>
-  )
+    <Router>
+      <div>
+        <Navbar />
+        <Routes>
+          <Route exact path="/" element={<Home />}/>
+          <Route path="/vit-vellore" element={<VitVel />}/>
+        </Routes>
+        <Footer />
+      </div>
+    </Router>
+  );
 }
 
-export default App
+export default App;
