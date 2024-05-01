@@ -1,5 +1,6 @@
 {
   "name": "landingpage2",
+  "homepage": "https://admissionexpress.co.in/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -30,6 +31,6 @@
     "eslint-plugin-react": "^7.34.1",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.6",
-    "vite": "^5.2.0"
+    "vite": "^5.2.10"
   }
 }

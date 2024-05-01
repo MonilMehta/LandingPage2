@@ -21,7 +21,7 @@ const MissionnVision = () => {
         <div className="carousel-item1">
           <img src={Vis} alt="Vision" className="carousel-image1" />
           <div className="carousel-text1">
-            <p>Education Diary wants to shape your future according to you by helping you get Direct Admission In SRM University Under Management Quota
+            <p>Admission Express wants to shape your future according to you by helping you get Direct Admission In SRM University Under Management Quota
             and  VIT Vellore and another top college in India under management Quota with easy terms and conditions.
             </p>
           </div>

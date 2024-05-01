@@ -11,7 +11,7 @@
   
   /* Header Section */
   .header-section {
-    margin-top: 102px;
+    margin-top: 140px;
     position: relative;
     display: flex;
     align-items: center;
@@ -50,6 +50,7 @@
     font-size: 3.5rem;
     font-weight: bold;
     margin-bottom: 30px;
+    color: #0A2463;
   }
   
   .sub-heading {
