@@ -1,13 +1,18 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import '../styles/VitVel.css'; // Import custom CSS for styling
 import { Link } from 'react-router-dom';
 
 const VitVel = () => {
+  useEffect(() => {
+    // Scroll to the top of the page when component mounts
+    window.scrollTo(0, 0);
+  }, []); // Empty dependency array to run only on component mount
+
   return (
     <div className="direct-admission-vit">
-        <div className='flex flex-row'>
-        <Link to="/" className="back-button">⬅️Back to Homepage</Link>
-        </div>
+      <div className='flex flex-row'>
+        <Link to="/" className="back-button">⬅️ Back to Homepage</Link>
+      </div>
       <h2>Direct Admission in VIT University, Vellore</h2>
       <p>
         Vellore University is one of the best universities in India, located in Vellore, Tamil Nadu. Established in 1984, it has been renowned for its academic excellence and vibrant campus life.
@@ -64,7 +69,6 @@ const VitVel = () => {
         <li>Flexibility: Choose preferred branch of engineering based on availability.</li>
         <li>Early Confirmation: Secure seat early in the admission process.</li>
       </ul>
-
     </div>
   );
 };
