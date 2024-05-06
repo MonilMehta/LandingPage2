@@ -4,7 +4,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Footer from './components/Footer';
-import VitVel from './components/VitVel'; // Import the Direct Admission VIT component
+import VitVel from './components/VitVel'; 
 
 function App() {
   return (
