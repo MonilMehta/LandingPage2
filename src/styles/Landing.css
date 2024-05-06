@@ -43,14 +43,19 @@
   /* Text Content */
   .text-content {
     max-width: 80%;
-    color: #0A2463;
+    color: white;
   }
-  
-  .main-heading {
-    font-size: 3.5rem;
+  .main-heading2{
+    font-size: 5rem;
     font-weight: bold;
     margin-bottom: 30px;
-    color: #0A2463;
+    color: white;
+  }
+  .main-heading {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: white;
   }
   
   .sub-heading {

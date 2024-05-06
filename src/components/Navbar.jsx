@@ -29,8 +29,8 @@ const Navbar = () => {
     <nav className={`navbarr shadow-md fixed top-0 left-0 w-full z-10 transition-transform duration-300 ${isCollapsed ? 'transform -translate-y-16' : ''}`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex flex-col justify-between items-center">
         {/* Large header visible at the top */}
-        <div className="lg:block hidden">
-          <h1 className="text-4xl font-bold mb-10 heading">We'll help you achieve your dreams</h1>
+        <div className="lg:block hidden flex flex-row">
+          <h1 className="text-4xl font-bold mb-10 heading">We'll help you achieve your dreams<span  className='ml-20 contact'>Contact Us : +91-9821948429</span></h1>
         </div>
         {/* Navigation links, collapsed on scroll */}
         <div className="flex items-center space-x-4 lg:space-x-8 navlinks">

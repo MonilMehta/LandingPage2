@@ -15,7 +15,6 @@ const LandingPage = () => {
       {/* Header Section */}
       <header className="header-section flex flex-col">
         <div className="header-background"></div>
-        <h1 className="main-heading">Admission Express</h1>
         <div className="header-content">
         
           <div className="doctor-image mt-10">
@@ -23,6 +22,7 @@ const LandingPage = () => {
             <img src={doctorImage} alt="Doctor" />
           </div>
           <div className="text-content">
+            <h1 className="main-heading2 mb-20">Tech Admission</h1>
             <h1 className="main-heading">Start your future with us</h1>
             <p className="sub-heading">Discover our accredited engineering program and start your journey today.</p>
             <button className="cta-button" onClick={scrollToEnquiryForm}>

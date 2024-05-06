@@ -1,13 +1,26 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import Mis from '../assets/mission.jpg';
 import Vis from '../assets/vision.jpg';
 import '../styles/misnvis.css'; 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const MissionnVision = () => {
+  useEffect(() => {
+    const aosInstance = AOS.init({
+      once: true, 
+      offset: 120, 
+      duration: 400, 
+      easing: 'ease', 
+      anchorPlacement: 'top-bottom', 
+    });
+    // Destroy AOS instance on unmount to prevent conflicts
+  }, []);
+
   return (
-    <div className='misnvis1'>
+    <div className='misnvis1' data-aos="fade-up">
       <div className='enquire-content1'>
         <h3 className='head'>Our Mission And Vision</h3>
       </div>
